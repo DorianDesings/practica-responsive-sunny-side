@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__top-bar">
+        <img src="assets/images/logo.svg" alt="logo" />
+        <nav>
+          <ul id="menu" class="menu">
+            <li class="menu__item">
+              <a href="#" class="menu__link">About</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Services</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Projects</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <img
+          id="toggle-menu"
+          class="toggle-menu"
+          src="assets/images/icon-hamburger.svg"
+          alt=""
+        />
+      </div>
+      <h1 class="header__title">WE ARE CREATIVES</h1>
+    </header>
+    <main class="main">
+      <article class="article article--reverse">
+        <picture>
+          <source
+            media="(min-width:768px)"
+            srcset="assets/images/desktop/image-transform.jpg"
+          />
+          <source
+            media="(min-width:360px)"
+            srcset="assets/images/mobile/image-transform.jpg"
+          />
+          <img
+            class="article__image"
+            src="assets/images/mobile/image-transform.jpg"
+            alt="Imagen de un huevo con fondo amarillo"
+          />
+        </picture>
+        <div class="article__info">
+          <h2 class="article__title">Transform your brand</h2>
+          <p class="article__text">
+            We are a full-service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you.
+          </p>
+          <a href="#" class="article__link article__link--yellow">Learn More</a>
+        </div>
+      </article>
+      <article class="article">
+        <picture>
+          <source
+            media="(min-width:768px)"
+            srcset="assets/images/desktop/image-stand-out.jpg"
+          />
+          <source
+            media="(min-width:360px)"
+            srcset="assets/images/mobile/image-stand-out.jpg"
+          />
+          <img
+            class="article__image"
+            src="assets/images/mobile/image-stand-out.jpg"
+            alt="Imagen de una copa con fondo rojo"
+          />
+        </picture>
+        <div class="article__info">
+          <h2 class="article__title">Stand out to the right audience</h2>
+          <p class="article__text">
+            Using a collaborative formula of designers, researchers,
+            photographers, videographers, and copywriters, we’ll build and
+            extend your brand in digital places.
+          </p>
+          <a href="#" class="article__link article__link--red">Learn More</a>
+        </div>
+      </article>
+      <article class="articles-with-images">
+        <article class="article-with-image article-with-image--cherries">
+          <div class="article-with-image__info">
+            <h2 class="article-with-image__title">Graphic design</h2>
+            <p class="article-with-image__text">
+              Great design makes you memorable. We deliver artwork that
+              underscores your brand message and captures potential clients’
+              attention.
+            </p>
+          </div>
+        </article>
+        <article class="article-with-image article-with-image--orange">
+          <div class="article-with-image__info">
+            <h2 class="article-with-image__title">Photography</h2>
+            <p class="article-with-image__text">
+              Increase your credibility by getting the most stunning,
+              high-quality photos that improve your business image.
+            </p>
+          </div>
+        </article>
+      </article>
+      <article class="testimonials">
+        <h2 class="testimonials__title">Client Testimonials</h2>
+        <ul class="testimonials__list">
+          <li class="testimonials__item">
+            <img
+              src="assets/images/image-emily.jpg"
+              alt="Foto de Emily"
+              class="testimonials__image"
+            />
+            <p class="testimonials__text">
+              We put our trust in Sunnyside and they delivered, making sure our
+              needs were met and deadlines were always hit.
+            </p>
+            <h3 class="testimonials__name">Emily R.</h3>
+            <p class="testimonials__job">Marketing Director</p>
+          </li>
+          <li class="testimonials__item">
+            <img
+              src="assets/images/image-thomas.jpg"
+              alt="Foto de Thomas"
+              class="testimonials__image"
+            />
+            <p class="testimonials__text">
+              Sunnyside’s enthusiasm coupled with their keen interest in our
+              brand’s success made it a satisfying and enjoyable experience.
+            </p>
+            <h3 class="testimonials__name">Thomas S.</h3>
+            <p class="testimonials__job">Chief Operating Officer</p>
+          </li>
+          <li class="testimonials__item">
+            <img
+              src="assets/images/image-jennie.jpg"
+              alt="Foto de Jennie"
+              class="testimonials__image"
+            />
+            <p class="testimonials__text">
+              Incredible end result! Our sales increased over 400% when we
+              worked with Sunnyside. Highly recommended!
+            </p>
+            <h3 class="testimonials__name">Jennie F.</h3>
+            <p>Business Owner</p>
+          </li>
+        </ul>
+      </article>
+      <article class="gallery">
+        <picture>
+          <source
+            media="(min-width:768px )"
+            srcset="assets/images/desktop/image-gallery-milkbottles.jpg"
+          />
+          <source
+            media="(min-width:360px )"
+            srcset="assets/images/mobile/image-gallery-milkbottles.jpg"
+          />
+          <img
+            src="assets/images/mobile/image-gallery-milkbottles.jpg"
+            alt="Imagen con botellas de leche"
+          />
+        </picture>
+        <picture>
+          <source
+            media="(min-width:768px )"
+            srcset="assets/images/desktop/image-gallery-orange.jpg"
+          />
+          <source
+            media="(min-width:360px )"
+            srcset="assets/images/mobile/image-gallery-orange.jpg"
+          />
+          <img
+            src="assets/images/mobile/image-gallery-orange.jpg"
+            alt="Imagen con botellas de leche"
+          />
+        </picture>
+        <picture>
+          <source
+            media="(min-width:768px )"
+            srcset="assets/images/desktop/image-gallery-cone.jpg"
+          />
+          <source
+            media="(min-width:360px )"
+            srcset="assets/images/mobile/image-gallery-cone.jpg"
+          />
+          <img
+            src="assets/images/mobile/image-gallery-cone.jpg"
+            alt="Imagen con botellas de leche"
+          />
+        </picture>
+        <picture>
+          <source
+            media="(min-width:768px )"
+            srcset="assets/images/desktop/image-gallery-sugarcubes.jpg"
+          />
+          <source
+            media="(min-width:360px )"
+            srcset="assets/images/mobile/image-gallery-sugarcubes.jpg"
+          />
+          <img
+            src="assets/images/mobile/image-gallery-sugar-cubes.jpg"
+            alt="Imagen con botellas de leche"
+          />
+        </picture>
+      </article>
+    </main>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
